@@ -44,7 +44,7 @@ import os
 
 folder = {}
 # Use this to easily run the code in different directories/devices
-folder['initial'] = 'C:/Users/jimar/Dimitris/python/'
+folder['initial'] = '/content/'
 # The path where the repository is stored
 folder['main'] = folder['initial'] + 'crack_detection_CNN_masonry/'
 
