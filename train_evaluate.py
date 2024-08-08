@@ -80,9 +80,9 @@ from subroutines.HDF5 import HDF5DatasetGeneratorMask
   
 if mode == 'train':
 
-    from keras.preprocessing.image import ImageDataGenerator
-    from keras.callbacks import ModelCheckpoint
-    from keras.callbacks import CSVLogger
+    from tensorflow.keras.preprocessing.image import ImageDataGenerator
+    from tensorflow.keras.callbacks import ModelCheckpoint
+    from tensorflow.keras.callbacks import CSVLogger
     
     from subroutines.callbacks import EpochCheckpoint
     from subroutines.callbacks import TrainingMonitor
